@@ -226,6 +226,7 @@ nav {
    
 }
 
-.spotlight{
+.spotlight {
     text-decoration: line-through;
+    transform: rotate(-5deg);
 }
