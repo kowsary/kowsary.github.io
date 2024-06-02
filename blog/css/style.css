@@ -118,6 +118,17 @@ button {
     box-shadow: 5px 5px 4px -1px #888;
 }
 
+button:focus, button:hover {
+    color: #fff; 
+    background-color: #33658A;
+}
+
+button:active {
+    color: #fff;
+    background-color: black;
+}
+
+
 
 /* GENERAL SETUP AND DEFAULTS*/
 
@@ -226,7 +237,57 @@ nav {
    
 }
 
+nav a:focus, nav a:hover {
+    color: #fff; 
+    background-color: #33658A;
+}
+
+nav a:active {
+    color: #fff;
+    background-color: black;
+}
+
+
 .spotlight {
     text-decoration: line-through;
     transform: rotate(-5deg);
+}
+
+/* FOOTER */
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: small;
+}
+
+footer a {
+    color: #33658A;
+
+}
+
+footer a:focus, footer a:hover {
+    color: #fff; 
+    background-color: #33658A;
+}
+
+footer a:active {
+    color: #fff;
+    background-color: black;
+}
+
+.left-text {
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.right-text {
+    float: right;
+    text-align: right;
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
